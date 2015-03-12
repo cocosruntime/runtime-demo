@@ -1,0 +1,34 @@
+{
+    "boot_group": {
+        "md5": "4225021574cedb91053b172de12fde52", 
+        "name": "boot.zip", 
+        "size": 3823263
+    }, 
+    "description": "这是灰常好玩的消除游戏！", 
+    "design_resolution": {
+        "height": 960, 
+        "policy": "SHOW_ALL", 
+        "width": 640
+    }, 
+    "entry_file": {
+        "md5": "148a42900e9c4996e5669192d41eeaf8", 
+        "name": "main.jsc", 
+        "size": 4148
+    }, 
+    "game_name": "puddingland", 
+    "manifest_file": {
+        "md5": "bb8658ce51683c46002e846564620a25", 
+        "name": "manifest.json", 
+        "size": 964
+    }, 
+    "orientation": "portrait", 
+    "package_name": "com.longames.puddingland", 
+    "project_json_file": {
+        "md5": "b967d16d7ed0b079b7676a523a0a8881", 
+        "name": "project.json", 
+        "size": 2161
+    }, 
+    "runtime_version": "3.3.0", 
+    "version_code": 1, 
+    "version_name": "1.0.0"
+}

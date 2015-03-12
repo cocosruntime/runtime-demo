@@ -1,0 +1,35 @@
+{
+    "boot_group": {
+        "md5": "51f154696622af2714d87681914aa90f", 
+        "name": "boot.zip", 
+        "size": 457089
+    }, 
+    "description": "anySDK的测试例啦", 
+    "design_resolution": {
+        "height": 450, 
+        "policy": "SHOW_ALL", 
+        "width": 800
+    }, 
+    "entry_file": {
+        "md5": "402e7ebe80fc473f49cb4c8577782b85", 
+        "name": "main.jsc", 
+        "size": 2205
+    }, 
+    "game_name": "anySDK的测试例", 
+    "manifest_file": {
+        "md5": "9331b83b89aa215e3b3db4dd6b746cd5", 
+        "name": "manifest.json", 
+        "size": 1094
+    }, 
+    "orientation": "landscape", 
+    "package_name": "org.cocos2dx.anysdk.v3", 
+    "project_json_file": {
+        "md5": "f9a1d8902c93548270662cc081f4d303", 
+        "name": "project-runtime.json", 
+        "size": 453
+    }, 
+    "runtime_version": "3.3.0.1", 
+    "third_party": "yejJHarV2bn5jIgoyejJGauFmbsV2XkljIgojIwADMyAyMsICIhJHcfBWaiQiOiAjN1UDN5IzMwUIn19", 
+    "version_code": 3, 
+    "version_name": "3.0.0"
+}

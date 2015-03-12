@@ -1,0 +1,36 @@
+{
+    "boot_group": {
+        "md5": "b4627a3c41f25907da80ba2fa15616f9", 
+        "name": "boot.zip", 
+        "size": 2231510
+    }, 
+    "custom_runtime_so_version_code": 1, 
+    "description": "这是灰常好玩的打飞机游戏！", 
+    "design_resolution": {
+        "height": 720, 
+        "policy": "SHOW_ALL", 
+        "width": 480
+    }, 
+    "entry_file": {
+        "md5": "713740bca5fd8fbb2031194d8755ac1c", 
+        "name": "main.jsc", 
+        "size": 2212
+    }, 
+    "game_name": "月亮战士v3", 
+    "game_type": "offline", 
+    "manifest_file": {
+        "md5": "ce3dc1d09a0f609f83d6c83638c5932a", 
+        "name": "manifest.json", 
+        "size": 3650
+    }, 
+    "orientation": "portrait", 
+    "package_name": "org.cocos2dx.moonwarriors.v3", 
+    "project_json_file": {
+        "md5": "58abc21440adff0e28728d63b9909cba", 
+        "name": "project-runtime.json", 
+        "size": 815
+    }, 
+    "runtime_version": "3.3.0.1", 
+    "version_code": 6, 
+    "version_name": "3.0.0"
+}

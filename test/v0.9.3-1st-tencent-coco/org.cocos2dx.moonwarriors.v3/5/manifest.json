@@ -1,0 +1,77 @@
+{
+    "custom_runtime_info": {}, 
+    "custom_runtime_so_version_code": 1, 
+    "description": "这是灰常好玩的打飞机游戏！", 
+    "design_resolution": {
+        "height": 720, 
+        "policy": "SHOW_ALL", 
+        "width": 480
+    }, 
+    "entry_file": {
+        "md5": "713740bca5fd8fbb2031194d8755ac1c", 
+        "name": "main.jsc", 
+        "size": 2212
+    }, 
+    "game_name": "月亮战士v3", 
+    "game_type": "offline", 
+    "orientation": "portrait", 
+    "package_name": "org.cocos2dx.moonwarriors.v3", 
+    "project_json_file": {
+        "md5": "58abc21440adff0e28728d63b9909cba", 
+        "name": "project-runtime.json", 
+        "size": 815
+    }, 
+    "res_groups": [
+        {
+            "group_info_md5": "e2cf5912851aa49c5fab7f14f711b7e0", 
+            "md5": "de0384af320e8ef7d46a07b84774221a", 
+            "name": "boot", 
+            "patch": {
+                "3": {
+                    "md5": "633fd27ac19c4b478505fe3a779305a5", 
+                    "size": 6815, 
+                    "url": "patch/boot/patch_3.zip"
+                }
+            }, 
+            "priority": 0, 
+            "size": 2231512, 
+            "url": "group/boot.zip"
+        }, 
+        {
+            "group_info_md5": "a3fcf47800b238c6d4facca68e00c607", 
+            "md5": "29d0803ac504e845fd50b230e4235cc2", 
+            "name": "common", 
+            "patch": {
+                "3": {
+                    "md5": "1d542babb16f5c83316df27312271e93", 
+                    "size": 19659, 
+                    "url": "patch/common/patch_3.zip"
+                }
+            }, 
+            "priority": 1, 
+            "size": 19488, 
+            "url": "group/common.zip"
+        }, 
+        {
+            "group_info_md5": "8b05d207b64359d3d0b6ac2663b680d7", 
+            "md5": "d255ad8ad1c51fd24f73f7b43c8bb0d3", 
+            "name": "gamelayer", 
+            "patch": {}, 
+            "priority": 2, 
+            "size": 1146869, 
+            "url": "group/gamelayer.zip"
+        }, 
+        {
+            "group_info_md5": "8acbd18c45e1d9f5d2b7a8277fd31ec5", 
+            "md5": "763c307e0fc1cbfaffceb46024385f23", 
+            "name": "gameover", 
+            "patch": {}, 
+            "priority": 3, 
+            "size": 87990, 
+            "url": "group/gameover.zip"
+        }
+    ], 
+    "runtime_version": "3.3.0.1", 
+    "version_code": 5, 
+    "version_name": "3.0.0"
+}

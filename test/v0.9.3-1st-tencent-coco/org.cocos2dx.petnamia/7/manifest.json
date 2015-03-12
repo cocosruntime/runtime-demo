@@ -1,0 +1,53 @@
+{
+    "description": "爱不释手的全新三消游戏，超萌外星小怪物来袭！精美绚丽的画面，趣味十足的关卡，丰富多样的玩法，强力炫酷的道具，助您和可爱的小怪物们一起体验星际大冒险！和你的朋友们比一比，看谁能飞到更美的新星球！经典易上手的点击换位三消规则，更多新鲜的游戏模式，超萌外星小怪物，华丽梦幻的消除特效，更多神秘的新星球即将到来！想要更多体力？要前往新的星系？好友互动系统让这一切都无比容易！", 
+    "design_resolution": {
+        "height": 640, 
+        "policy": "SHOW_ALL", 
+        "width": 1136
+    }, 
+    "entry_file": {
+        "md5": "e2383c5209ad9cf5f7a78d29a857994f", 
+        "name": "main.jsc", 
+        "size": 35091
+    }, 
+    "game_name": "进击的小怪物", 
+    "orientation": "landscape", 
+    "package_name": "org.cocos2dx.petnamia", 
+    "project_json_file": {
+        "md5": "99914b932bd37a50b983c5e7c90ae93b", 
+        "name": "project-runtime.json", 
+        "size": 2
+    }, 
+    "res_groups": [
+        {
+            "group_info_md5": "5b1876c5b22055deaa5df4ec4ee61211", 
+            "md5": "da0dabde86ebc45f95b7b645e77326d5", 
+            "name": "boot", 
+            "patch": {}, 
+            "priority": 0, 
+            "size": 6961561, 
+            "url": "group/boot.zip"
+        }, 
+        {
+            "group_info_md5": "a3076738e96d505f930cad6164f8a4b1", 
+            "md5": "8cdf7c019a614fe9544cc2b2a6a4f530", 
+            "name": "mainscene", 
+            "patch": {}, 
+            "priority": 1, 
+            "size": 8751474, 
+            "url": "group/mainscene.zip"
+        }, 
+        {
+            "group_info_md5": "2cbdacb926ca0f9d9f7e7313e6311245", 
+            "md5": "5416b079841bded4bf8e7066d2b55732", 
+            "name": "gamescene", 
+            "patch": {}, 
+            "priority": 2, 
+            "size": 5501237, 
+            "url": "group/gamescene.zip"
+        }
+    ], 
+    "runtime_version": "2.2.6", 
+    "version_code": 7, 
+    "version_name": "1.0.2"
+}

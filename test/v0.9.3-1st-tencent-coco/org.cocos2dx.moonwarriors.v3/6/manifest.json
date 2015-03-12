@@ -1,0 +1,110 @@
+{
+    "custom_runtime_info": {
+        "custom_runtime_so_info": {
+            "arm64-v8a": {
+                "md5": "821b439f46f103a0e0131cce15db0036", 
+                "name": "libcocosruntime-3.3.0.1.so", 
+                "size": 16015856
+            }, 
+            "armeabi": {
+                "md5": "eb9aab1df88df05eb50fe0a59d88c315", 
+                "name": "libcocosruntime-3.3.0.1.so", 
+                "size": 13710768
+            }, 
+            "armeabi-v7a": {
+                "md5": "4e872b8ff8d52d1e352c399a153d9bbb", 
+                "name": "libcocosruntime-3.3.0.1.so", 
+                "size": 13497788
+            }, 
+            "x86": {
+                "md5": "0d4c30ccdc647d6ed23e6f8625e7ca7b", 
+                "name": "libcocosruntime-3.3.0.1.so", 
+                "size": 19377068
+            }
+        }, 
+        "patches": {
+            "arm64-v8a": {
+                "md5": "f6dd5f8bc3801ceb31b5dfdc696a6689", 
+                "size": 88824, 
+                "url": "patch/runtime/3.3.0.1/arm64-v8a/runtime-so.patch"
+            }, 
+            "armeabi": {
+                "md5": "5866db254840fda55db82b329c5ced52", 
+                "size": 61600, 
+                "url": "patch/runtime/3.3.0.1/armeabi/runtime-so.patch"
+            }, 
+            "armeabi-v7a": {
+                "md5": "d9b9ef887cec964af7983efebfdcd69c", 
+                "size": 117233, 
+                "url": "patch/runtime/3.3.0.1/armeabi-v7a/runtime-so.patch"
+            }, 
+            "x86": {
+                "md5": "2edeb7c2bdfeb4ec65a6a18f51767215", 
+                "size": 128028, 
+                "url": "patch/runtime/3.3.0.1/x86/runtime-so.patch"
+            }
+        }
+    }, 
+    "custom_runtime_so_version_code": 1, 
+    "description": "这是灰常好玩的打飞机游戏！", 
+    "design_resolution": {
+        "height": 720, 
+        "policy": "SHOW_ALL", 
+        "width": 480
+    }, 
+    "entry_file": {
+        "md5": "713740bca5fd8fbb2031194d8755ac1c", 
+        "name": "main.jsc", 
+        "size": 2212
+    }, 
+    "game_name": "月亮战士v3", 
+    "game_type": "offline", 
+    "orientation": "portrait", 
+    "package_name": "org.cocos2dx.moonwarriors.v3", 
+    "project_json_file": {
+        "md5": "58abc21440adff0e28728d63b9909cba", 
+        "name": "project-runtime.json", 
+        "size": 815
+    }, 
+    "res_groups": [
+        {
+            "group_info_md5": "b93bfcc68dabda5d08c4effc7b0b65af", 
+            "md5": "b4627a3c41f25907da80ba2fa15616f9", 
+            "name": "boot", 
+            "patch": {}, 
+            "priority": 0, 
+            "size": 2231510, 
+            "url": "group/boot.zip"
+        }, 
+        {
+            "group_info_md5": "fb32f77bb53e4907991792747b54f0e1", 
+            "md5": "5490ce436ff9d86fe3b0f793ab68ab3c", 
+            "name": "common", 
+            "patch": {}, 
+            "priority": 1, 
+            "size": 19479, 
+            "url": "group/common.zip"
+        }, 
+        {
+            "group_info_md5": "8b05d207b64359d3d0b6ac2663b680d7", 
+            "md5": "c9c68a9580af4099394290e8a754d3a0", 
+            "name": "gamelayer", 
+            "patch": {}, 
+            "priority": 2, 
+            "size": 1146869, 
+            "url": "group/gamelayer.zip"
+        }, 
+        {
+            "group_info_md5": "8acbd18c45e1d9f5d2b7a8277fd31ec5", 
+            "md5": "67d78ef93c52a623247511fe0f203281", 
+            "name": "gameover", 
+            "patch": {}, 
+            "priority": 3, 
+            "size": 87990, 
+            "url": "group/gameover.zip"
+        }
+    ], 
+    "runtime_version": "3.3.0.1", 
+    "version_code": 6, 
+    "version_name": "3.0.0"
+}

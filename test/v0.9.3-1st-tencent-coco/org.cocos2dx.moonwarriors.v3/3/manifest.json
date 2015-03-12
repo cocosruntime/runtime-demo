@@ -1,0 +1,63 @@
+{
+    "description": "这是灰常好玩的打飞机游戏！", 
+    "design_resolution": {
+        "height": 720, 
+        "policy": "SHOW_ALL", 
+        "width": 480
+    }, 
+    "entry_file": {
+        "md5": "713740bca5fd8fbb2031194d8755ac1c", 
+        "name": "main.jsc", 
+        "size": 2212
+    }, 
+    "game_name": "月亮战士v3", 
+    "game_type": "offline", 
+    "orientation": "portrait", 
+    "package_name": "org.cocos2dx.moonwarriors.v3", 
+    "project_json_file": {
+        "md5": "58abc21440adff0e28728d63b9909cba", 
+        "name": "project-runtime.json", 
+        "size": 815
+    }, 
+    "res_groups": [
+        {
+            "group_info_md5": "7384c8da196825a4ea18d8209850ca8f", 
+            "md5": "115a1bb933865fdfc0413b35f4165785", 
+            "name": "boot", 
+            "patch": {}, 
+            "priority": 0, 
+            "size": 2231690, 
+            "url": "group/boot.zip"
+        }, 
+        {
+            "group_info_md5": "fb32f77bb53e4907991792747b54f0e1", 
+            "md5": "640d446c774e3ba45b83f9a29813c040", 
+            "name": "common", 
+            "patch": {}, 
+            "priority": 1, 
+            "size": 19479, 
+            "url": "group/common.zip"
+        }, 
+        {
+            "group_info_md5": "8b05d207b64359d3d0b6ac2663b680d7", 
+            "md5": "5a12d7fac1d0d5f749676b95024d1f6d", 
+            "name": "gamelayer", 
+            "patch": {}, 
+            "priority": 2, 
+            "size": 1146869, 
+            "url": "group/gamelayer.zip"
+        }, 
+        {
+            "group_info_md5": "8acbd18c45e1d9f5d2b7a8277fd31ec5", 
+            "md5": "657c4396dc53feac779de60465c7c563", 
+            "name": "gameover", 
+            "patch": {}, 
+            "priority": 3, 
+            "size": 87990, 
+            "url": "group/gameover.zip"
+        }
+    ], 
+    "runtime_version": "3.3.0.1", 
+    "version_code": 3, 
+    "version_name": "3.0.0"
+}

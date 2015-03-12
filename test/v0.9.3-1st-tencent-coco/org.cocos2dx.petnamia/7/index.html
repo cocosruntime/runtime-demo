@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>进击的小怪物</title>
+    <link rel="icon" type="image/GIF" href="res/favicon.ico"/>
+    <meta name="viewport" content="width=800,user-scalable=no"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <style>
+        body, canvas, div {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            -khtml-user-select: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+    </style>
+</head>
+<body style="padding:0; margin: 0; background: #000;">
+<div style="text-align: center;">
+    <canvas id="gameCanvas" width="1136" height="640"></canvas>
+</div>
+
+<script>
+    if(window.CocosRuntime){
+        var configObj = {
+            "orientation": "portrait",
+            "version_code":2,
+            "game_url": "http://192.168.2.1:8888/org.cocos2dx.moonwarriors.v2/2"
+        };
+
+        CocosRuntime.start(JSON.stringify(configObj));
+    }else{
+
+        var sources = [
+            "boot-html5.js"
+        ];
+
+        window.onload = function () {
+            for (var i = 0; i < sources.length; ++i) {
+                var script = document.createElement("script");
+                script.src = sources[i];
+                script.async = false;
+                document.body.appendChild(script);
+            }
+        }
+    }
+</script>
+
+</body>
+</html>
+

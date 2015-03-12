@@ -1,0 +1,35 @@
+{
+    "boot_group": {
+        "md5": "ef219e6afa5d2a1edb90854263c43597", 
+        "name": "boot.zip", 
+        "size": 271431
+    }, 
+    "description": "AnySDK测试例v2版本！", 
+    "design_resolution": {
+        "height": 450, 
+        "policy": "SHOW_ALL", 
+        "width": 800
+    }, 
+    "entry_file": {
+        "md5": "852cfb670f29c2b948b3b3ba48556cb4", 
+        "name": "main.jsc", 
+        "size": 1347
+    }, 
+    "game_name": "AnySDK测试例v2", 
+    "manifest_file": {
+        "md5": "942f9d0e47130fc289c4c8cccae0a954", 
+        "name": "manifest.json", 
+        "size": 1096
+    }, 
+    "orientation": "landscape", 
+    "package_name": "org.cocos2dx.anysdk.v2", 
+    "project_json_file": {
+        "md5": "99914b932bd37a50b983c5e7c90ae93b", 
+        "name": "project-runtime.json", 
+        "size": 2
+    }, 
+    "runtime_version": "2.2.6.1", 
+    "third_party": "yejJHarV2bn5jIgoyejJGauFmbsV2XkljIgojIwADMyAyMsICIhJHcfBWaiQiOiAjN1UDN5IzMwUIn19", 
+    "version_code": 2, 
+    "version_name": "1.0.2"
+}
