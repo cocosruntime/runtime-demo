@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta id="viewport" name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+<title>
+Game Test
+</title>
+</head>
+<body>
+
+<br>
+<br>
+<p>AnySDK V2 Test: </p>
+<button onclick="loadAnySDKV2()">运行</button>
+<button onclick="deleteAnySDKV2()">删除缓存</button>
+
+<br>
+<br>
+<p>AnySDK V3 Test: </p>
+<button onclick="loadAnySDKV3()">运行</button>
+<button onclick="deleteAnySDKV3()">删除缓存</button>
+
+<br>
+<br>
+<p>MoonWarriors Runtime V2: </p>
+<button onclick="runOldMoonWarriorsV2()">运行游戏</button>
+<button onclick="upgradeMoonWarriorsV2()">升级（不可逆）</button>
+<button onclick="deleteMoonWarriorsV2()">删除游戏</button>
+
+<br>
+<br>
+<p>MoonWarriors Runtime V3: </p>
+<button onclick="runOldMoonWarriorsV3()">运行游戏</button>
+<button onclick="upgradeMoonWarriorsV3()">升级（不可逆）</button>
+<button onclick="upgradePatchMoonWarriorsV3()">应用Patch升级（不可逆）</button>
+<button onclick="deleteMoonWarriorsV3()">删除游戏</button>
+
+<br>
+<br>
+<br>
+<button onclick="deleteAllCaches()">删除所有caches</button>
+
+<script type="text/javascript">
+
+    var serverURL = "http://cocosruntime.oss-cn-beijing.aliyuncs.com/test/v0.9.3-1st/";
+
+    function loadAnySDKV3() {
+        var configObj = {
+            "orientation": "landscape",
+            "package_name":"org.cocos2dx.anysdk.v3",
+            "version_code":3,
+        };
+
+        configObj["game_url"] = serverURL + configObj["package_name"] + "/" + configObj["version_code"];
+        CocosRuntime.start(JSON.stringify(configObj));
+    }
+
+    function loadAnySDKV2() {
+        var configObj = {
+            "orientation": "landscape",
+            "package_name":"org.cocos2dx.anysdk.v2",
+            "version_code":2,
+        };
+
+        configObj["game_url"] = serverURL + configObj["package_name"] + "/" + configObj["version_code"];
+        CocosRuntime.start(JSON.stringify(configObj));
+    }
+
+    function runGameForPuddingland()
+    {
+        var configObj = {
+            "orientation": "portrait",
+            "version_code":1,
+            "package_name":"com.longames.puddingland"
+        };
+
+        configObj["game_url"] = serverURL + configObj["package_name"] + "/" + configObj["version_code"];
+        CocosRuntime.start(JSON.stringify(configObj));
+    }
+
+    function runOldMoonWarriorsV2()
+    {
+        var configObj = {
+            "orientation": "portrait",
+            "version_code":2,
+            "package_name":"org.cocos2dx.moonwarriors.v2"
+        };
+
+        configObj["game_url"] = serverURL + configObj["package_name"] + "/" + configObj["version_code"];
+        CocosRuntime.start(JSON.stringify(configObj));
+    }
+
+    function upgradeMoonWarriorsV2()
+    {
+        var configObj = {
+            "orientation": "portrait",
+            "version_code":3,
+            "package_name":"org.cocos2dx.moonwarriors.v2"
+        };
+
+        configObj["game_url"] = serverURL + configObj["package_name"] + "/" + configObj["version_code"];
+        CocosRuntime.start(JSON.stringify(configObj));
+    }
+  
+    function runOldMoonWarriorsV3()
+    {
+        var configObj = {
+            "orientation": "portrait",
+            "version_code":3,
+            "package_name":"org.cocos2dx.moonwarriors.v3"
+        };
+
+        configObj["game_url"] = serverURL + configObj["package_name"] + "/" + configObj["version_code"];
+        CocosRuntime.start(JSON.stringify(configObj));
+    }
+
+    function upgradeMoonWarriorsV3()
+    {
+        var configObj = {
+            "orientation": "portrait",
+            "version_code":4,
+            "package_name":"org.cocos2dx.moonwarriors.v3"
+        };
+
+        configObj["game_url"] = serverURL + configObj["package_name"] + "/" + configObj["version_code"];
+        CocosRuntime.start(JSON.stringify(configObj));
+    }
+
+    function upgradePatchMoonWarriorsV3()
+    {
+        var configObj = {
+            "orientation": "portrait",
+            "version_code":5,
+            "package_name":"org.cocos2dx.moonwarriors.v3"
+        };
+
+        configObj["game_url"] = serverURL + configObj["package_name"] + "/" + configObj["version_code"];
+        CocosRuntime.start(JSON.stringify(configObj));
+    }
+
+    function runGameForPetmania()
+    {
+        var configObj = {
+            "orientation": "landscape",
+            "version_code":7,
+            "package_name":"org.cocos2dx.petnamia"
+        };
+
+        configObj["game_url"] = serverURL + configObj["package_name"] + "/" + configObj["version_code"];
+        CocosRuntime.start(JSON.stringify(configObj));
+    }
+
+    function deleteAllCaches()
+    {
+        CocosRuntime.deleteAllCaches();
+    }
+
+    function deleteAnySDKV2()
+    {
+        CocosRuntime.deleteGameCache("org.cocos2dx.anysdk.v2");
+    }
+
+    function deleteAnySDKV3()
+    {
+        CocosRuntime.deleteGameCache("org.cocos2dx.anysdk.v3");
+    }
+
+    function deleteMoonWarriorsV2()
+    {
+        CocosRuntime.deleteGameCache("org.cocos2dx.moonwarriors.v2");
+    }
+
+    function deleteMoonWarriorsV3()
+    {
+        CocosRuntime.deleteGameCache("org.cocos2dx.moonwarriors.v3");
+    }
+
+    function deleteGameCacheForPetmania()
+    {
+        CocosRuntime.deleteGameCache("org.cocos2dx.petnamia");
+    }
+
+    function deleteGameCacheForPuddingland()
+    {
+        CocosRuntime.deleteGameCache("com.longames.puddingland");
+    }
+
+    function raiseCrash() {
+        CocosRuntime.raiseCrash()
+    }
+
+</script>
+    
+</body></html>
