@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta id="viewport" name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+<title>
+Game Test
+</title>
+<style type="text/css">
+.main{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:200px;
+    height:100px;
+    margin-top:-50px;
+    margin-left:-100px;
+
+    line-height:30px;
+    font-size:16px;
+    text-align:center;
+    }
+</style>
+</head>
+<body>
+<div style="text-align:center;" class="main">
+<button onclick="runGame()" style="height:60px;width:110px;" >运行游戏</button>
+<br>
+<br>
+<button onclick="deleteGameCache()" style="height:60px;width:110px;" >删除游戏缓存</button>
+<br>
+<br>
+<button onclick="deleteCustomRuntime()" style="height:60px;width:110px;" >删除自定义Runtime</button>
+</div>
+<script type="text/javascript">
+    var packageName = 'org.cocos2dx.moonwarriors.v3'
+
+    function runGame() {
+        var configObj = {
+            "orientation": "portrait",
+            "version_code":3,
+            "game_url": "http://115.28.72.132/test/v0.9.4-3rd/org.cocos2dx.moonwarriors.v3/3"
+        };
+
+        CocosRuntime.start(JSON.stringify(configObj));
+    }
+
+    function deleteGameCache() {
+        CocosRuntime.deleteGameCache(packageName);
+    }
+
+    function deleteCustomRuntime() {
+        CocosRuntime.deleteCustomRuntime();
+    }
+
+</script>
+    
+</body></html>
+
